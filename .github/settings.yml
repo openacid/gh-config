@@ -8,3 +8,19 @@ labels:
     - {name: "priority-2-in-a-week"     ,    color: "92e85c"}
     - {name: "priority-2-i-can-wait"    ,    color: "c2e0c6"}
 
+repository:
+    private: false
+    has_issues: true
+    has_projects: true
+    has_wiki: true
+    has_downloads: true
+    default_branch: master
+    allow_squash_merge: true
+
+    # Either `true` to allow merging pull requests with a merge commit, or `false`
+    # to prevent merging pull requests with merge commits.
+    allow_merge_commit: false
+
+    # Either `true` to allow rebase-merging pull requests, or `false` to prevent
+    # rebase-merging.
+    allow_rebase_merge: true
