@@ -2,6 +2,7 @@ labels:
     - {name: "bug"                      ,    color: "cc0000"}
     - {name: "feature"                  ,    color: "a2eebb"}
     - {name: "enhancement"              ,    color: "a2eeef"}
+    - {name: "api-change"               ,    color: "ffdd44"}
     - {name: "refactor"                 ,    color: "927ed6"}
     - {name: "priority-0-emergency"     ,    color: "d93f0b"}
     - {name: "priority-1-want-it-today" ,    color: "fbca04"}
