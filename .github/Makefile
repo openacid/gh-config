@@ -1,7 +1,16 @@
 MDs := CODE_OF_CONDUCT.md
 
-all: toc
+GO := go
 
+all: misspell toc
+
+
+misspell:
+	$(GO) get github.com/client9/misspell/cmd/misspell
+	misspell \
+		-locale GB \
+		-error \
+		*.md
 toc:
 	# brew install nodejs
 	# npm install -g doctoc
