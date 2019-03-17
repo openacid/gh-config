@@ -1,4 +1,5 @@
-MDs := CODE_OF_CONDUCT.md
+MDs := CODE_OF_CONDUCT.md \
+    CODE_OF_CONDUCT_cn.md
 
 GO := go
 
