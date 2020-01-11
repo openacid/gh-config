@@ -9,8 +9,8 @@ labels:
     - {name: "priority-0-emergency"     ,    color: "d93f0b"}
     - {name: "priority-1-want-it-today" ,    color: "fbca04"}
     - {name: "priority-2-in-2-days"     ,    color: "e2d83f"}
-    - {name: "priority-2-in-a-week"     ,    color: "92e85c"}
-    - {name: "priority-2-i-can-wait"    ,    color: "c2e0c6"}
+    - {name: "priority-3-in-a-week"     ,    color: "92e85c"}
+    - {name: "priority-4-i-can-wait"    ,    color: "c2e0c6"}
 
 repository:
     private: false
